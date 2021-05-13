@@ -4,7 +4,7 @@
   "description": "Homework Assignment",
   "scripts": {
     "test": "jest --watch",
-    "batch-records-in-json-file": "babel-node index.js"
+    "batch-records-in-json-file": "babel-node src/index.js"
   },
   "repository": {
     "type": "git",

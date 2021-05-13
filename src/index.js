@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from 'fs';
-import { pipeline } from './src/functionalProgramming/functionalProgramming';
+import { pipeline } from './functionalProgramming/functionalProgramming';
 
-import getBatchedRecords from './src/getBatchedRecords/getBatchedRecords';
+import getBatchedRecords from './getBatchedRecords/getBatchedRecords';
 
 const sourceFilePath = process.argv[2];
 const targetFilePath = sourceFilePath.replace(/\.json/g, '.batched.json');
