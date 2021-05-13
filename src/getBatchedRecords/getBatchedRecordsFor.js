@@ -1,11 +1,14 @@
-import { reject, size, sumBy } from 'lodash/fp';
-
-import pipeline from '../functionalProgramming/pipeline/pipeline';
-import either from '../functionalProgramming/either/either';
+import {
+  either,
+  isGreaterThan,
+  pipeline,
+  reject,
+  size,
+  sumBy,
+} from '../functionalProgramming/functionalProgramming';
 
 import byteCount from './getByteCount/getByteCount';
 import getBatches from './getBatches/getBatches';
-import isGreaterThan from '../functionalProgramming/isGreaterThan/isGreaterThan';
 
 const megabyte = 1_048_576;
 
