@@ -1,6 +1,6 @@
 import { defaultTo, initial, last, negate, reduce } from 'lodash/fp';
-import appendWith from '../appendWith/appendWith';
-import pipeline from '../pipeline/pipeline';
+import appendWith from '../../functionalProgramming/appendWith/appendWith';
+import pipeline from '../../functionalProgramming/pipeline/pipeline';
 
 export default batchIsFull => items => {
   const currentBatchHasRoom = currentBatchHasRoomConsidering(batchIsFull);
