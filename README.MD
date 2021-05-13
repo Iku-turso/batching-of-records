@@ -11,3 +11,9 @@ Input for the library is: `[<record1>, <record2>, <record3>, ... , <recordn>]`
 Output is: `[<batch1>, <batch2>, ..., <batchn>]` where each batch is an array of records just like in the input.
 
 The records can be assumed to be strings of variable length and they have to pass intact through the system and records should stay in the order that they arrive.
+
+## Instructions
+
+- To install dependencies: `$npm install`
+- To run unit tests: `$npm test`
+- To test manually using a JSON-file with an array of records: `$npm run batch-records-in-json-file records.json`. This will create `records.batched.json`.
